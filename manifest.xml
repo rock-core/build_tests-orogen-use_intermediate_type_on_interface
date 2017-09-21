@@ -1,0 +1,7 @@
+<package>
+  <description brief="Test that types that are used as intermediate types can also be used as-is">
+  </description>
+  <author>Sylvain Joyeux/sylvain.joyeux@13robotics.com</author>
+  <depend package="base/cmake" />
+  <depend package="base/orogen/types" />
+</package>

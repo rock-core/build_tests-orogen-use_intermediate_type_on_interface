@@ -1,0 +1,10 @@
+name "use_intermediate_type_on_interface"
+
+import_types_from "base"
+
+task_context "Task" do
+    needs_configuration
+
+    output_port 'out', '/base/samples/frame/Frame'
+end
+
